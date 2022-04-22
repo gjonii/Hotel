@@ -13,12 +13,21 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
     <title>Hotel</title>
   </head>
   <body>
-    <header>
+    <header id="header">
       <nav class="nav">
         <div class="container">
+        
           <div class="header-menu">
             <a href="#">Logo</a>
             <ul class="menu">
@@ -28,6 +37,10 @@
               <li> <a href="#kontakti">Contact</a> </li>
               <li >Booking</li>
             </ul>
+            <button class="mobile-nav">
+              <ion-icon class="mobile-nav-icon" name="menu-outline"></ion-icon>
+              <ion-icon class="mobile-nav-icon" name="close-outline"></ion-icon>
+            </button>
           </div>
         </div>
       </nav>
@@ -60,7 +73,7 @@
       </div>
     </section>
 
-<section id="home" class="mt-lg mb-lg">
+<section id="home" class="mt-lg mb-lg mt-md mb-md">
   <div class="container">
     <div class="grid grid-col-3 grid-2 grid-1">
       <div class="hotel-img">
@@ -84,7 +97,7 @@
   </div>
 </section>
 
-<section id="dhomat" class="pt-lg pb-lg">
+<section id="dhomat" class="pt-lg pb-lg pt-md pb-md">
   <div class="container">
     <h2>Rooms</h2>
 <div class="grid grid-col-3 grid-2 grid-1">
@@ -130,12 +143,12 @@
   </div>
 </section>
 
-<article id="sherbimet" class="mt-lg mb-lg">
+<!-- <article id="sherbimet" class="mt-lg mb-lg">
   <div class="container">
   </div>
-</article>
+</article> -->
 
-<aside id="kontakti" class="mt-lg mb-lg">
+<aside id="kontakti" class="mt-lg mb-lg mt-md mb-md ">
 <div class="container">
   <div class="grid  grid-col-3 grid-2 grid-1" >
 <div class="info">
@@ -270,5 +283,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="./js/script.js"></script>
   </body>
 </html>

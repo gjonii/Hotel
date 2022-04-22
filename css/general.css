@@ -37,6 +37,7 @@
     padding: 0;
   
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   
   *:focus {
@@ -51,7 +52,7 @@
     background-color: #e5e5e5;
   }
   .container {
-    max-width: 110.40rem;
+    max-width: 1200px;
     margin: 0 auto;
     height: 100%;
   }

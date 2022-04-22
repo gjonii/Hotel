@@ -42,12 +42,29 @@
   align-items: center;
   justify-content: center;
   background-color: white;
-  color: #f4694c;
+  color: rgb(244, 105, 78);
 }
+
 
 .menu li:last-child:hover {
   background-color: #f4694c;
   color: white;
+}
+.mobile-nav {
+  display: none;
+  border: none;
+  padding: 1.6rem;
+  background-color: transparent;
+}
+
+.mobile-nav .mobile-nav-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+  color: white;
+}
+
+.mobile-nav-icon[name="close-outline"] {
+  display: none;
 }
 /* ------------------- */
 
@@ -88,7 +105,7 @@
 }
 .hero-description p {
   font-weight: 400;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   line-height: 1.2;
   letter-spacing: -0.5px;
 }
@@ -106,10 +123,7 @@
 /* ------------------- */
 
 /* home */
-#home {
-  /* margin-top: 96px;
-  margin-bottom: 96px; */
-}
+
 .grid-col-3 {
   column-gap: 50px;
 
@@ -246,7 +260,6 @@ padding: 15px;
   margin-left: 30px;
   font-weight: 700;
   font-size: 1.6rem;
-  line-height: 1.2px;
   align-items: center;
   color: #333535;
 }
